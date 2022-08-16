@@ -1,0 +1,201 @@
+.ham {
+    display: none;
+}
+
+
+@media only screen and (max-width:1270px) {
+    .container h1 {
+        padding: 0rem;
+        font-size: 3rem;
+        width: 40rem;
+        margin-top: 3rem;
+      }
+
+      nav {
+        display: none;
+      }
+      .ham {
+        display: flex
+      }
+}
+@media only screen and (max-width:1000px) {
+    .container h1 {
+        padding: 0rem;
+        font-size: 2.5rem;
+        width: 30rem;
+        margin-top: 2rem;
+      }
+      .btn {
+        margin: 4rem 1rem;
+        font-size: 1rem;
+    }
+
+    .btn:hover {
+        background-color: skyblue;
+        cursor: pointer;
+        color: black;
+    }
+
+    .cards {
+        padding: 1.5rem;
+        height: 7rem;
+        width: 15rem;
+        font-size: 1rem;
+      }
+
+    .card-top::after {  
+        height: 5rem;
+        width: 3px;
+        right: 6.5rem;
+        top: 10rem;
+      }
+
+      .card-top .outside {
+        height: 1rem;
+        width: 1rem;
+        margin-left: 9.5rem;
+        margin-top: 6rem;
+      }
+      .card-bottom {
+        bottom: -7.5rem;
+        left: 28%;
+      }
+
+      .bottom-card-outside {
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        margin-top: -5.5rem;
+        margin-left: 22rem;
+      }
+}
+
+
+@media only screen and (max-width:870px) {
+    .container h1 {
+        padding: 0rem;
+        font-size: 2rem;
+        width: 25rem;
+        margin-top: 2rem;
+      }
+      .btn {
+        margin: 3rem 1rem;
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+
+    }
+
+    .cards {
+        padding: 1.5rem;
+        height: 7rem;
+        width: 15rem;
+        font-size: 1rem;
+      }
+
+    .card-top::after {  
+        height: 5rem;
+        width: 3px;
+        right: 6.5rem;
+        top: 10rem;
+      }
+
+      .card-top .outside {
+        height: 1rem;
+        width: 1rem;
+        margin-left: 9.5rem;
+        margin-top: 6rem;
+      }
+      .card-bottom {
+        bottom: -50vh;
+        left: -10%;
+      }
+
+      .card-top {
+        top: 34vh;
+        right: 15vw;
+      }
+      .container {
+        margin-top: 0rem;
+      }
+
+}
+
+@media only screen and (max-width:650px) {
+    .cards {
+        padding: 1rem;
+        height: 7rem;
+        width: 10rem;
+        font-size: 0.8rem;
+      }
+      .card-top .outside {
+        height: 1rem;
+        width: 1rem;
+        margin-left: 4rem;
+        margin-top: 5rem;
+      }
+      .card-top::after {
+        height: 5rem;
+        width: 3px;
+        right: 6.5rem;
+        top: 9rem;
+      }
+      .bottom-card-outside {
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        margin-top: -5.3rem;
+        margin-left: 15rem;
+      }
+      .card-bottom::after {
+       margin-right: 2rem;   
+        width: 4rem;
+      }
+
+      .card-bottom {
+        left: -10%;
+      }
+
+      .container h1 {
+        padding: 0rem;
+        font-size: 1.5rem;
+        width: 16rem;
+        margin-top: 1rem;
+      }
+      .btn {
+        margin: 2rem 0rem;
+        font-size: 1rem;
+        padding: 0.8rem 1rem;
+      }
+      .card-top {
+        top: 30vh;
+        right: 10vw;
+      }
+}
+
+
+@media only screen and (max-width:380px) {
+    .cards {
+        font-size: 0.6rem;
+        padding: 1rem;
+        height: 6rem;
+        width: 8rem;
+    }
+    .card-top::after {
+        height: 4rem;
+        width: 3px;
+        right: 6.5rem;
+        top: 8rem;
+    }
+    .card-top .outside {
+        margin-left: 2rem;
+        margin-top: 4rem;
+    }
+    .bottom-card-outside {
+        margin-top: -4.3rem;
+        margin-left: 12rem;
+    }
+
+    .container  {
+        margin: 1.5rem;
+    }
+}
